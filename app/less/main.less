@@ -12,6 +12,8 @@
 @import 'section-one.less';
 @import 'section-two.less';
 @import 'section-tree.less';
+@import 'section-four.less';
+@import 'footer.less';
 
 
 
@@ -19,22 +21,31 @@
 
 h1 {
     font-size: @h1;
+    text-shadow: @shadow;
 }
 
 h2 {
     font-size: @h2;
+    text-shadow: @shadow;
 }
 
 h3 {
     font-size: @h3;
+    text-shadow: @shadow;
 }
 
 span {
     font-weight: bold;
+    text-shadow: @shadow;
 }
 
 p {
     font-weight: 600;
+    text-shadow: @shadow;
+}
+
+a {
+    text-shadow: @shadow;
 }
 
 
@@ -59,4 +70,8 @@ p {
 .section-five,
 .section-six {
     background-color: #F6F6F6;
+}
+
+.img-sh {
+    box-shadow: @box-shadow;
 }
