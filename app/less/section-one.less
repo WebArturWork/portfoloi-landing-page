@@ -1,7 +1,6 @@
 .sec-one {
 	.flex-row-mixin;
 	align-items: flex-end;
-
 	padding-top: 40px;
 }
 .sec-one-b-3 {
@@ -10,14 +9,44 @@
 }
 .cont-img {
 	width: 945px;
+	height: 450px;
+	margin-top: 30px;
 	overflow: hidden;
 }
 .wrap-img {
 	position: relative;
 	width: 4720px;
-	margin-top: 30px;
-	margin-bottom: 104px;
 	transition: all ease 1s;
 }
-.denis-novik-img {
+.btn-block {
+	bottom: 290px;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.btn-1 {
+	position: relative;
+	left: 5px;
+}
+.btn-2 {
+	position: relative;
+	right: 5px;
+}
+
+.btn-1,
+.btn-2 {
+	.button-poiner;
+}
+.btn-1 {
+	transform: rotate(-180deg);
+}
+.rotate-1 {
+	position: relative;
+	bottom: 5px;
+}
+.rotate-2 {
+	position: relative;
+	top: 5px;
 }
