@@ -50,13 +50,22 @@ a {
 
 
 
-
+body {
+    background-image: url('../images/src/1.gif');
+    background-size: 100%;
+    background-attachment: fixed;
+}
 
 
 .main {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+
+
+    
+    background-color: rgba(255, 255, 255, 0.4);
+    
 }
 
 .wrapper {
@@ -68,7 +77,8 @@ a {
 .section-four,
 .section-five,
 .section-six {
-    background-color: #F6F6F6;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.6); 
 }
 
 .img-sh {
@@ -77,9 +87,11 @@ a {
 
 .posi-fixed {
     .top-wrapper;
+    z-index: 2;
 }
 .btn-foot-sroll {
     .button-poiner;
+    display: none;
     height: 40px;
     width: 40px;
     font-size: 70px;
