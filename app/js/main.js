@@ -70,5 +70,18 @@ window.onload = function () {
     }
   }
 
+
+
+  // Burger
+
+
+  const burger = document.getElementById('burger');
+
+  burger.onclick = () => {
+
+    const headCont = document.getElementById('head');
+    headCont.classList.toggle('head-cont-2');
+
+  }
   
 }
