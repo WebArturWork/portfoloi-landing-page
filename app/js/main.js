@@ -67,6 +67,7 @@ window.onload = function () {
         clearTimeout(timer);
         window.scrollTo(0,0);
       }
+      
     }
   }
 
@@ -82,6 +83,15 @@ window.onload = function () {
     const headCont = document.getElementById('head');
     headCont.classList.toggle('head-cont-2');
 
+    document.querySelector('.burger').classList.toggle('change-burger');
+
+
+    document.querySelector('.burger').innerHTML = '&#9776';
+    document.querySelector('.change-burger').innerHTML = '&#10006';
+    
+
   }
+
+
   
 }

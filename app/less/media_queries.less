@@ -26,16 +26,32 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
 @media all and (max-width: 750px){
 
    .wrapper {
-      width: 600px;
+      width: 100%;
       margin: 0 auto;
    }
 
    .head-cont {
       display: none;
+      background-color: white;
+      z-index: 1;
    }
+
+
+
+
 
 
 
@@ -43,9 +59,44 @@
    // HEAD-CONT CREATE JS
    .head-cont-2 {
       display: flex;
+      flex-direction: column;
       position: absolute;
       width: 100%;
+      border-bottom: 0px solid #828282;
    }
+
+   .block-1, 
+   .block-2,
+   .block-3,
+   .block-4 {
+      margin-left: 40px;
+      margin-top: 20px;
+      margin-bottom: 48px;
+   }
+   .block-5 {
+      margin-left: 40px;
+      margin-top: 20px;
+      margin-bottom: 250px;
+   }
+   .select-block-6 {
+      display: block;
+      position: absolute;
+
+
+      right: 1px;
+      bottom: 100px;
+      transform: rotate(-270deg);
+   }
+
+   .head-cont-a {
+      font-size: 34px;
+   }
+   .rotate {
+      font-size: 34px;
+   }
+
+
+
 
 
 
@@ -90,16 +141,45 @@
 
 
 
+
    .cont-img {
-      width: 600px;
+      display: none;
    }
 
+   .cont-img-adaptiv {
+      display: block;
+      width: 316px;
+      height: 478px;
+
+      margin: 0 auto;
+      margin-bottom: 83px;
+      overflow: hidden;
+   }
+
+
+
+
+
+
+
+
+   .b-3-skills {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   .sec-block-tree {
+      margin-bottom: 80px;
+   }
    .img img {
-      height: 40px;
+      height: 60px;
    }
    .stars img {
-      height: 15px;
+      height: 25px;
    }
+
+
+
 
 
 
@@ -107,13 +187,18 @@
 
 
    .sec-four img {
-      width: 600px;
+      width: 316px;
    }
 
 
 
 
 
+
+
+   .foot-img {
+      padding: 20px;
+   }
 
 
 }
